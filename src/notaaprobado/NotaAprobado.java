@@ -1,17 +1,10 @@
 package notaaprobado;
 import java.util.Scanner;
 
-/**
- *
- * @author maryse
- *
- * Representar la superación de un examen considerando >=5, aprobado
- *
- */
 
 public class NotaAprobado {
-
-    public static void main(String[] args) {
+    
+    public static void notas() {
         int nota;
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introduzca nota a analizar:");
@@ -19,6 +12,11 @@ public class NotaAprobado {
         if (nota > 5) {
             System.out.println("Prueba superada ");
         }
+        
+    }
+    public static void main(String[] args) {
+        
+        NotaAprobado.notas();
     }
 
 }
